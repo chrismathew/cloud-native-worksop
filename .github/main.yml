@@ -11,9 +11,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        project: [
-          catalog-service
-        ]  
+        project: catalog-service
     steps:
       - name: Checkout source code
         uses: actions/checkout@v3
